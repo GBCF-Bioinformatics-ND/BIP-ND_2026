@@ -82,18 +82,23 @@ If your institution has a brand palette, edit the `PALETTE` constant at the top 
 
 | Day | Block | Session |
 |-----|-------|---------|
-| 1 | 09:00–09:30 | Welcome, mental model for genomics |
-| 1 | 09:30–10:30 | Shell I: navigation and files |
-| 1 | 10:45–12:15 | Shell II: pipes, scripting, and the HPC |
-| 1 | 13:15–14:45 | Environments (conda/mamba, containers) |
-| 1 | 15:00–16:15 | Project structure and version control |
+| 1 | 09:00–09:30 | Into to workshop and GBCF |
+| 1 | 09:30–10:30 | Intro to HPC and CRC |
+| 1 | 10:30–12:00 | BASH script |
+| 1 | 12:00–13:00 | Lunch |
+| 1 | 13:00–14:00 | Conda environment set up |
+| 1 | 14:00–15:00 | Container set up |
+| 1 | 15:00–15:15 | Coffee break |
+| 1 | 15:15–16:15 | Git and version control |
 | 1 | 16:15–16:30 | Day 1 wrap-up |
 | 2 | 09:00–09:30 | Recap; landscape of genomic databases |
-| 2 | 09:30–10:30 | Web-first: NCBI, Ensembl, UCSC |
-| 2 | 10:45–12:15 | Programmatic access (CLI, R, Python) |
-| 2 | 13:15–14:45 | VS Code as a bioinformatics IDE |
-| 2 | 15:00–15:45 | AI coding assistants: where they help, where they hurt |
-| 2 | 15:45–16:15 | Putting it together |
+| 2 | 09:30–11:00 | Model system database: NBCI, Ensembl, UCSC |
+| 2 | 11:00–12:00 | Non-model system database |
+| 2 | 12:00–13:00 | Lunch |
+| 2 | 13:00–14:00 | VS Code as a bioinformatics IDE |
+| 2 | 14:00–15:00 | TBD |
+| 2 | 15:00–15:15 | Coffee break |
+| 2 | 15:15–16:15 | How to build AI agent |
 | 2 | 16:15–16:30 | Where to go next; close |
 
 ## License
