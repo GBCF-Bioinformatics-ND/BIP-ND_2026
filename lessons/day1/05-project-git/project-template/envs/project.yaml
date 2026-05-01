@@ -1,0 +1,9 @@
+name: project-env
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - r-base>=4.3
+  # Add your project tools below, pinning the ones whose behavior matters.

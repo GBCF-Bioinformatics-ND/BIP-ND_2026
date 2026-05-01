@@ -1,0 +1,62 @@
+# --- Bioinformatics: never commit data ---
+data/raw/
+data/processed/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.cram
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+*.csi
+*.bed.gz
+*.fa
+*.fasta
+*.fna
+*.gff
+*.gff3
+*.gtf
+*.h5
+*.h5ad
+*.rds
+*.RData
+
+# --- Pipeline working directories ---
+work/
+.nextflow*
+.snakemake/
+
+# --- Environments ---
+.conda/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.code-workspace
+
+# --- macOS / Linux clutter ---
+.DS_Store
+*~
+*.swp
+
+# --- R ---
+.Rhistory
+.Rapp.history
+.Rproj.user/
+*.Rcheck/
+
+# --- Build artifacts from scripts/build_slides.js ---
+slides/*.pdf
+node_modules/

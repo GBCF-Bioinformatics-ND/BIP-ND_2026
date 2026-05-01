@@ -1,0 +1,52 @@
+{
+    "// editor": "Common settings for a bioinformatics project.",
+
+    "editor.formatOnSave": true,
+    "editor.rulers": [88, 100],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+
+    "// python": "Use ruff for both linting and formatting; black if you prefer it.",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    "ruff.lineLength": 88,
+
+    "// R": "Pointed at the workshop conda env; styler for formatting; lintr for linting.",
+    "r.rterm.linux": "${env:CONDA_PREFIX}/bin/R",
+    "r.rterm.option": ["--no-save", "--no-restore"],
+    "r.bracketedPaste": true,
+    "r.lsp.diagnostics": true,
+    "[r]": {
+        "editor.defaultFormatter": "REditorSupport.r",
+        "editor.formatOnSave": true
+    },
+
+    "// shell": "shellcheck via the Bash IDE extension.",
+    "shellcheck.enable": true,
+    "shellcheck.run": "onSave",
+
+    "// yaml": "Validate conda env files and Nextflow configs.",
+    "yaml.validate": true,
+    "yaml.format.enable": true,
+
+    "// notebooks": "Diff notebooks cell-by-cell.",
+    "notebook.diff.ignoreMetadata": true,
+    "notebook.diff.ignoreOutputs": true,
+
+    "// git": "Show inline blame; auto-fetch.",
+    "git.autofetch": true,
+    "gitlens.codeLens.enabled": true,
+    "gitlens.currentLine.enabled": true,
+
+    "// terminal": "Activate the conda env automatically.",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.scrollback": 10000
+}

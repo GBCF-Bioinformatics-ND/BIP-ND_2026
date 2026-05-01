@@ -1,0 +1,59 @@
+name: workshop
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  # Shell-level utilities
+  - coreutils
+  - gawk
+  - sed
+  - grep
+  - findutils
+  - tmux
+
+  # Genomics tools
+  - samtools
+  - bcftools
+  - htslib
+
+  # Database CLIs
+  - entrez-direct
+  - ncbi-datasets-cli
+  - sra-tools
+
+  # Python stack
+  - python=3.11
+  - pip
+  - biopython
+  - pyensembl
+  - requests
+  - pandas
+  - jupyter
+  - ipykernel
+  - ruff
+  - black
+
+  # R stack
+  - r-base>=4.3
+  - r-essentials
+  - r-tidyverse
+  - r-languageserver
+  - r-lintr
+  - r-styler
+  - bioconductor-biomart
+  - bioconductor-annotationhub
+  - bioconductor-experimenthub
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+
+  # Workflow management
+  - nextflow
+
+  # Quality of life
+  - git
+  - tree
+  - jq
+
+  - pip:
+      - gget

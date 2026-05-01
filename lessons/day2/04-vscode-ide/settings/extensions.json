@@ -1,0 +1,16 @@
+{
+    "// recommendations": "VS Code will prompt cloners of this repo to install these. Keep it short and project-relevant.",
+    "recommendations": [
+        "ms-vscode-remote.remote-ssh",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "REditorSupport.r",
+        "ms-toolsai.jupyter",
+        "quarto.quarto",
+        "redhat.vscode-yaml",
+        "timonwong.shellcheck",
+        "eamodio.gitlens",
+        "donjayamanne.git-extension-pack"
+    ]
+}

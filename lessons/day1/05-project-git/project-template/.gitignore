@@ -1,0 +1,59 @@
+# Never commit data
+data/raw/
+data/processed/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.cram
+*.sam
+*.vcf
+*.vcf.gz
+*.bcf
+*.tbi
+*.csi
+*.h5
+*.h5ad
+*.rds
+*.RData
+
+# Reference genomes and indexes — store outside the repo
+*.fa
+*.fasta
+*.fna
+*.fa.fai
+*.dict
+*.bwt
+*.bwt.2bit.64
+
+# Pipeline working directories
+work/
+.nextflow*
+.snakemake/
+
+# Environments
+.conda/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE — commit settings, not workspace state
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.code-workspace
+
+# R
+.Rhistory
+.Rapp.history
+.Rproj.user/
+
+# OS clutter
+.DS_Store
+*~
+*.swp

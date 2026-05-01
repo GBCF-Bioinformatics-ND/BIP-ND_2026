@@ -1,0 +1,12 @@
+name: my-project
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - samtools
+  - bcftools
+  - pip
+  - pip:
+      - # add a pure-Python package here in the exercise
